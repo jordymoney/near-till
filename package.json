@@ -1,0 +1,17 @@
+{
+  "name": "near-till",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Policy-gated contractor agent. Humans set the budget. The agent hires, negotiates once, and cannot pay a blocked counterparty.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/cli.js job",
+    "attack": "node src/cli.js attack",
+    "lookup": "node src/cli.js lookup"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
